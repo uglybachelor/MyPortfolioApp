@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyPortfolioApp</string>
+    <string name="app_title">My Portfolio App</string>
+    <string name="button_spotify_streamer">spotify streamer</string>
+    <string name="button_scores">scores app</string>
+    <string name="button_library">library app</string>
+    <string name="button_build_it_bigger">build it bigger</string>
+    <string name="button_xyz">xyz reader</string>
+    <string name="button_capstone">capstone: my own app</string>
+</resources>

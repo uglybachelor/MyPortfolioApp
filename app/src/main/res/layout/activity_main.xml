@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zhouzhenghai.myportfolioapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/udacityTheme"
+        android:onClick="onClick"
+        android:text="@string/button_spotify_streamer"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/scores"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/udacityTheme"
+        android:onClick="onClick"
+        android:text="@string/button_scores"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/library"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/udacityTheme"
+        android:onClick="onClick"
+        android:text="@string/button_library"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/udacityTheme"
+        android:onClick="onClick"
+        android:text="@string/button_build_it_bigger"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/udacityTheme"
+        android:onClick="onClick"
+        android:text="@string/button_xyz"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/capstone"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/capstoneTheme"
+        android:onClick="onClick"
+        android:text="@string/button_capstone"
+        android:textSize="@dimen/button_text_size" />
+
+</LinearLayout>
